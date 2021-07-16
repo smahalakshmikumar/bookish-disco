@@ -1,0 +1,40 @@
+/* // Small devices (phones, tablets less than 48em) */
+@media (min-width: 576px) {
+
+
+    
+    .Card {
+      background-color: orange;
+      height: "25%";
+    }
+    
+    ul li:before {
+      content: "\2713";
+      color: black;
+      
+    }
+    ul li {
+      
+      font-size: 1em;
+    }
+  }
+  
+  /* // Large devices (desktops, screens less than 75em) */
+  @media (min-width: 992px) {
+    .Card {
+      background-color: teal;
+      height: "25%";
+    }
+    ul li:before {
+        content: "\2713";
+        color: black;
+        
+      }
+      ul li {
+        
+        font-size: 1em;
+      }
+  }
+
+  
+  
